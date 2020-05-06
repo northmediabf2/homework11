@@ -1,8 +1,6 @@
-  # Домашнее задание 11 
-
-
+ Домашнее задание 18
    
-  Цель: Разобраться с основами docker, с образа, эко системой docker в целом.
+ Docker, docker-compose, dockerfile Цель: Разобраться с основами docker, с образа, эко системой docker в целом.
  
   Описание ДЗ в документе: Docker_HW__1-5522-fb6acf.pdf
 
@@ -11,7 +9,7 @@
  - После запуска nginx должен показывать php info.
  - Все собранные образы должны быть в docker hub
 
-# Результат:
+ Результат:
  - Запуск лабораторной работы: 
    
  -  Используем оркестратор docker-compose: cd homework11; docker-compose up -d
@@ -21,7 +19,7 @@ Screenshot:
 * docker-compose
 ![terminal](screen.png)
 
-Docker hub:
+docker hub:
 *  docker pull northmediabf2/homework11_php:latest
 *  docker pull northmediabf2/homework11_nginx:latest
 ![docker_hub](docker_hub.png)
