@@ -13,13 +13,14 @@
 
 # Результат:
  - Запуск лабораторной работы: 
- -  Используем оркестратор docker-compose 
- -  cd homework11; docker-compose up -d
+ -  
+ -  Используем оркестратор docker-compose: cd homework11; docker-compose up -d
  -  проверяем php info и web : curl 127.0.0.1:80 # 
   
 Screenshot:
 * docker-compose
 ![terminal](screen.png)
+
 Docker hub:
 *  docker pull northmediabf2/homework11_php:latest
 *  docker pull northmediabf2/homework11_nginx:latest
