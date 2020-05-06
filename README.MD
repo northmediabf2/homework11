@@ -10,9 +10,9 @@ Docker, docker-compose, dockerfile
 
 # Результат:
  - Запуск лабораторной работы: 
-   Используем оркестратор docker-compose 
-   cd homework11; docker-compose up -d
-   curl 127.0.0.1:80 # проверка web
+ -  Используем оркестратор docker-compose 
+ -  cd homework11; docker-compose up -d
+ -  проверяем web curl 127.0.0.1:80 # 
   
 Screenshot:
 * docker-compose
