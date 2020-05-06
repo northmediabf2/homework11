@@ -1,4 +1,4 @@
-  Домашнее задание 11 Docker, docker-compose, dockerfile
+  # Домашнее задание 11 Docker, docker-compose, dockerfile
 
    
   Цель: Разобраться с основами docker, с образа, эко системой docker в целом.
