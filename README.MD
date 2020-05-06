@@ -1,5 +1,5 @@
   # Домашнее задание 11 
-    Docker, docker-compose, dockerfile
+
 
    
   Цель: Разобраться с основами docker, с образа, эко системой docker в целом.
@@ -13,9 +13,9 @@
 
 # Результат:
  - Запуск лабораторной работы: 
- -  
+   
  -  Используем оркестратор docker-compose: cd homework11; docker-compose up -d
- -  проверяем php info и web : curl 127.0.0.1:80 # 
+ -  Проверяем php info и web : curl 127.0.0.1:80 # 
   
 Screenshot:
 * docker-compose
