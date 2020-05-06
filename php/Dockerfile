@@ -3,6 +3,7 @@ FROM php:7.4-fpm
 #Ставим пакеты                                     
 RUN apt-get update && apt-get install -y \             
         libfreetype6-dev \
+        wget \
         libjpeg62-turbo-dev \
         libpng-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
