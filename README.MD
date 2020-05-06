@@ -1,4 +1,5 @@
-  # Домашнее задание 11 Docker, docker-compose, dockerfile
+  # Домашнее задание 11 
+    Docker, docker-compose, dockerfile
 
    
   Цель: Разобраться с основами docker, с образа, эко системой docker в целом.
@@ -20,6 +21,6 @@ Screenshot:
 * docker-compose
 ![terminal](screen.png)
 *  docker hub
-   docker pull northmediabf2/homework11_php:latest
-   docker pull northmediabf2/homework11_nginx:latest
+*  docker pull northmediabf2/homework11_php:latest
+*  docker pull northmediabf2/homework11_nginx:latest
 ![docker_hub](docker_hub.png)
