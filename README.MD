@@ -20,7 +20,7 @@
 Screenshot:
 * docker-compose
 ![terminal](screen.png)
-*  docker hub
+Docker hub:
 *  docker pull northmediabf2/homework11_php:latest
 *  docker pull northmediabf2/homework11_nginx:latest
 ![docker_hub](docker_hub.png)
