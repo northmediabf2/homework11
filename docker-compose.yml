@@ -1,0 +1,22 @@
+     nginx:
+          dockerfile: ./Dockerfile # путь до докер файла указываем относительно директории в build
+          build: ./nginx  #сборка из директории
+          ports:
+              - 80:80
+          volumes:
+              - ./logs:/var/log/nginx
+              - ./nginx/site.conf:/etc/nginx/conf.d/site.conf
+              - ./php-code:/var/www:rw
+          volumes_from:
+              - php:rw
+          environment:
+              - NGINX_HOST=localhost
+              - NGINX_PORT=80
+#          command: nginx -g "daemon off;" # Можно указать в докер-фале, но можно и здесь
+          links:
+              - php
+     php:
+           dockerfile: ./Dockerfile # путь до докер файла указываем относительно директории в build
+           build: ./php # сборка из директории 
+           volumes:
+               - ./php-code:/var/www:rw
