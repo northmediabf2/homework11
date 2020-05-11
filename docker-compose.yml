@@ -4,8 +4,8 @@
           ports:
               - 80:80
           volumes:
-              - ./logs:/var/log/nginx
-              - ./nginx/site.conf:/etc/nginx/conf.d/site.conf
+              - ./logs:/var/log/nginx:rw
+              - ./nginx/site.conf:/etc/nginx/conf.d/site.conf:ro
               - ./php-code:/var/www:rw
           volumes_from:
               - php:rw
